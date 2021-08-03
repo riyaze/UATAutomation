@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="appPackage" value="param-val-not-found"/>
+  <parameter name="appActivity" value="param-val-not-found"/>
+  <parameter name="platformeVersion" value="param-val-not-found"/>
+  <parameter name="wait" value="param-val-not-found"/>
+  <parameter name="noReset" value="param-val-not-found"/>
+  <parameter name="os" value="param-val-not-found"/>
+  <parameter name="automationName" value="param-val-not-found"/>
+  <parameter name="appiumServer" value="param-val-not-found"/>
+  <parameter name="platformName" value="param-val-not-found"/>
+  <parameter name="udid" value="param-val-not-found"/>
+  <parameter name="deviceName" value="param-val-not-found"/>
+  <parameter name="systemPort" value="param-val-not-found"/>
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="ooredoo.automation.uat.AutomationMain">
+        <methods>
+          <include name="RunTestCases"/>
+        </methods>
+      </class> <!-- ooredoo.automation.uat.AutomationMain -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

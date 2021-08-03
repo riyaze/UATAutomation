@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="appPackage" value="qa.ooredoo.android"/>
+    <parameter name="appActivity" value="qa.ooredoo.android.facelift.activities.MainTainanceActivity"/>
+    <parameter name="platformeVersion" value="9"/>
+    <parameter name="wait" value="30"/>
+    <parameter name="noReset" value="true"/>
+    <parameter name="os" value="Android"/>
+    <parameter name="automationName" value="UiAutomator2"/>
+    <parameter name="appiumServer" value="http://127.0.0.1:4723/wd/hub"/>
+    <parameter name="platformName" value="Android"/>
+    <parameter name="udid" value="R58M349L3AD"/>
+    <parameter name="deviceName" value="s10plus"/>
+    <parameter name="systemPort" value="8201"/>
+    <classes>
+      <class name="ooredoo.automation.uat.AutomationMain">
+        <methods>
+          <include name="RunTestCases" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- ooredoo.automation.uat.AutomationMain -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
